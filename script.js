@@ -37,5 +37,8 @@ people.forEach((item) => {
   let name = item.name;
   let lastname = item.lastname;
   let age = item.age;
-  person.append
+  person.append(name);
+  person.append(lastname);
+  person.append(age);
+  container.append(person);
 })
