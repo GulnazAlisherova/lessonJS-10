@@ -11,6 +11,10 @@ let people = [{
 },
 {
   name:"Lasley",
-  lastname:
+  lastname: "Johnson",
+  age: 55
+},
+{
+  
 }
 ]
