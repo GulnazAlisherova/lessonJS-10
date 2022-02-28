@@ -1,1 +1,2 @@
-let fruits = ["apple"]
+let fruits = ["apple", "banana", "qiwi", "peach"];
+console.forEach
