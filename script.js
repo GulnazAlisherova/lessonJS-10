@@ -30,5 +30,4 @@ let people = [{
   age: 51
 }
 ]
-
-people.forEach(element => console.log(element));
+let container = document
