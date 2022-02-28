@@ -15,6 +15,18 @@ let people = [{
   age: 55
 },
 {
-  
+  name: "sam",
+  lastname: "cruz",
+  age: 11
+},
+{
+  name: "sadyr",
+  lastname:"Japarov",
+  age: 44
+},
+{
+  name: "Elon",
+  lastname: "mask",
+  age: 51
 }
 ]
