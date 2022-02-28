@@ -10,6 +10,7 @@ let people = [{
   age: 34
 },
 {
-  name:"Lasley"
+  name:"Lasley",
+  lastname
 }
 ]
