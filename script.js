@@ -34,5 +34,8 @@ let container = document.querySelector("#container")
 
 people.forEach((item) => {
   let person = document.createElement("div");
-  
+  let name = item.name;
+  let lastname = item.lastname;
+  let age = item.age;
+  person.append
 })
