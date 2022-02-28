@@ -1,2 +1,2 @@
 let fruits = ["apple", "banana", "qiwi", "peach"];
-console.forEach
+fruits.forEach(element => console.log(element));
