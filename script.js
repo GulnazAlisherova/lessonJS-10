@@ -30,4 +30,4 @@ let people = [{
   age: 51
 }
 ]
-let container = document
+let container = document.
