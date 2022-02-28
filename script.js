@@ -11,6 +11,6 @@ let people = [{
 },
 {
   name:"Lasley",
-  lastname
+  lastname:
 }
 ]
