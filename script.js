@@ -30,4 +30,9 @@ let people = [{
   age: 51
 }
 ]
-let container = document.
+let container = document.querySelector("#container")
+
+people.forEach((item) => {
+  let person = document.createElement("div");
+  
+})
