@@ -55,7 +55,7 @@ let people = [{
   profession:"3D-model"
 },
 {
-  name: "Peter",
+  name: "Peter", //
   resume: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, voluptatum.",
   profession:"front-end"
 } 
