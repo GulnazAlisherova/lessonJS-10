@@ -6,7 +6,7 @@ fruits.forEach((item=>{
 
 let people = [{
   name:"Peter",
-  lastname:"parker",
+  lastname:"Parker",
   age: 34
 },
 {
@@ -15,18 +15,18 @@ let people = [{
   age: 55
 },
 {
-  name: "sam",
-  lastname: "cruz",
+  name: "Sam",
+  lastname: "Cruz",
   age: 11
 },
 {
-  name: "sadyr",
+  name: "Sadyr",
   lastname:"Japarov",
   age: 44
 },
 {
   name: "Elon",
-  lastname: "mask",
+  lastname: "Mask",
   age: 51
 }
 ]
@@ -34,11 +34,11 @@ let container = document.querySelector("#container")
 
 people.forEach((item) => {
   let person = document.createElement("div");
-  let name = item.name;
-  let lastname = item.lastname;
-  let age = item.age;
-  person.append(name);
-  person.append(lastname);
-  person.append(age);
-  container.append(person);
+  let name = `${item. name} `;
+  let lastname =`${item.lastname}  `;
+  let age = `${item.age}`;
+  person.append( name);
+  person.append( lastname);
+  person.append( age);
+  container.append( person);
 })
