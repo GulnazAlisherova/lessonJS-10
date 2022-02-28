@@ -1,1 +1,1 @@
-let 
+let fruits = ["apple"]
