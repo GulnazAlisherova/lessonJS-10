@@ -43,21 +43,64 @@
 //   container.append( person);
 // })
 
+let people =[
+  {
+    name: "Clara",
+    resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quos eligendi sapiente beatae, quasi totam omnis atque dignissimos numquam doloremque porro aspernatur enim fuga molestias facere, consequatur aperiam id possimus.",
+    profession: "front-end",
+  },
+  {
+    name: "Peter",
+    resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quos eligendi sapiente beatae, quasi totam omnis atque dignissimos numquam doloremque porro aspernatur enim fuga molestias facere, consequatur aperiam id possimus.",
+    profession: "front-end",
+  },
+  {
+    name: "Cillo",
+    resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quos eligendi sapiente beatae, quasi totam omnis atque dignissimos numquam doloremque porro aspernatur enim fuga molestias facere, consequatur aperiam id possimus.",
+    profession: "front-end",
+  },
+  {
+    name: "Dan",
+    resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quos eligendi sapiente beatae, quasi totam omnis atque dignissimos numquam doloremque porro aspernatur enim fuga molestias facere, consequatur aperiam id possimus.",
+    profession: "front-end",
+  },
+  {
+    name: "Mark",
+    resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quos eligendi sapiente beatae, quasi totam omnis atque dignissimos numquam doloremque porro aspernatur enim fuga molestias facere, consequatur aperiam id possimus.",
+    profession: "front-end",
+  },
+];
 
-let people = [{
-  name: "Payla",
-  resume: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, voluptatum.",
-  profession:"Java"
-},
-{
-  name: "Clara",
-  resume: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, voluptatum.",
-  profession:"3D-model"
-},
-{
-  name: "Peter", //f
-  resume: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, voluptatum.",
-  profession:"front-end"
-} 
-]
+document.querySelector("#div-name");
+let divName = document.querySelector("#div-name");
 
+people.forEach((item) => {
+  let person = document.createElement("div");
+
+
+  let name = `${item.name}`  ;
+
+  document.createElement("h2");
+  let h2Element = document.createElement("h2");
+  divName.append(h2Element);
+
+  let resume = `${item.resume}` ;
+
+  let profession = item.profession;
+
+  document.createElement("div");
+  let divElement2 = document.createElement("div");
+
+  divName.append(divElement2);
+  person.append(name);
+  person.append(resume);
+  person.append(profession);
+
+  
+  divName.append(person);
+
+  h2Element.append(name);
+  // divElement2.append(profession);
+
+
+});
