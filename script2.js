@@ -1,7 +1,7 @@
 const articles = [
   {
     id: "article1",
-    image: "./images/photo_2021-02-10_03-10-06.jpg",
+    image: "./image-4.jpeg",
     title: "Sara",
     prof: "Front-End Developer",
     age: "19",
@@ -9,16 +9,17 @@ const articles = [
   },
   {
     id: "article2",
-    image: "./images/photo_2021-02-10_03-10-06.jpg",
-    title: "Viktor",
+    image: "./100faces00.jpg",
+    title: "Natasha",
     prof: "Front-End Developer",
     age: "19",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum ducimus et laboriosam quae dolore iure recusandae? Quae cumque corrupti eum ipsam nostrum, quasi recusandae maxime deserunt vitae, eveniet perferendis.",
   },
   {
     id: "article3",
-    image: "./images/photo_2021-02-10_03-10-06.jpg",
-    title: "Natasha",
+    image: "./face.jpg",
+
+    title: "Victor",
     prof: "Front-End Developer",
     age: "19",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum ducimus et laboriosam quae dolore iure recusandae? Quae cumque corrupti eum ipsam nostrum, quasi recusandae maxime deserunt vitae, eveniet perferendis.",
@@ -36,6 +37,7 @@ articles.forEach(article => {
   const p = document.createElement('p');
   const h3 = document.createElement('h3')
   const h4 = document.createElement('h4') 
+  img.style.width = "250px";
 
   articleElement.id = article.id;
   h2.textContent = article.title;
