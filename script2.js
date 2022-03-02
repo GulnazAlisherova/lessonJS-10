@@ -67,7 +67,7 @@ document.getElementById('article1').addEventListener('click', function() {
 let article2 = document.getElementById('article2');
 
 document.getElementById('article2').addEventListener('click', function() {
-
+//W
 })
 let article3 = document.getElementById('article3');
 document.getElementById('article3').addEventListener('click', function() {
