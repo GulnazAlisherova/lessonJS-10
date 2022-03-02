@@ -61,13 +61,12 @@ let article1 = document.querySelectorAll('article1');
 
 document.getElementById('article1').addEventListener('click', function() {
    
-  article1.style.color = "red";
+  article1.style.color= "red";
   article1style.width = "300px"
 });
 let article2 = document.getElementById('article2');
 
 document.getElementById('article2').addEventListener('click', function() {
-//W
 })
 let article3 = document.getElementById('article3');
 document.getElementById('article3').addEventListener('click', function() {
