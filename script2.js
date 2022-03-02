@@ -52,7 +52,7 @@ articles.forEach(article => {
   articleElement.append(h4);
   articleElement.append(h3);
   articleElement.prepend(img);
-  articleElement.append(p);
+  articleElement.apperd(p);
   div.append(h1);
   div.append(articleElement)
   main.append(div);
